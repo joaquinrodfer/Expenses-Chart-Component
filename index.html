@@ -9,9 +9,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css" type="text/css">
 
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="aplication/json" src="js/data.json" ></script>
-
   <title>Expenses chart component</title>
 </head>
 
@@ -24,16 +21,23 @@
       </section>
       <img src="images/logo.svg" alt="Logo">
     </article>
-    <article class="spending graphs">
+    <article class="spending charts">
       <h1 class="spending">Spending - Last 7 days</h1>
-      <section class="graphs">
-        <p class="graphs mon">mon</p>
-        <p class="graphs tue">tue</p>
-        <p class="graphs wed">wed</p>
-        <p class="graphs thu">thu</p>
-        <p class="graphs fri">fri</p>
-        <p class="graphs sat">sat</p>
-        <p class="graphs sun">sun</p>
+      <section class="charts">
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <p class="p day">mon</p>
+        <p class="p day">tue</p>
+        <p class="p day">wed</p>
+        <p class="p day">thu</p>
+        <p class="p day">fri</p>
+        <p class="p day">sat</p>
+        <p class="p day">sun</p>
       </section>
       <hr>
       <article class="bottom">
@@ -47,6 +51,8 @@
         </section>
       </article>
     </article>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/data.json"></script>
   </main>
 </body>
 
